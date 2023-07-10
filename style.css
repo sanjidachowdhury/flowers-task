@@ -1,0 +1,31 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.intro-part-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: bisque;
+}
+
+.head-line {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.intro-text {
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.primary-btn {
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(247, 58, 121);
+    border: none;
+    color: white;
+}
