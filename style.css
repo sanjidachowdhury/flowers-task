@@ -10,13 +10,10 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: bisque;
-    /* background-repeat: no-repeat;
-    background-size: cover; */
     padding-top: 25px;
     padding-left: 25px;
     padding-right: 25px;
 }
-
 
 .head-line {
     font-size: 80px;
@@ -37,8 +34,10 @@
     color: white;
 }
 
+
 /* main part starts */
 
+/* Our featured flowers section */
 .first-main-part {
     text-align: center;
     margin-top: 80px;
@@ -49,6 +48,7 @@
     margin-bottom: 20px;
 }
 
+/* three images with title part starts */
 .second-main-part {
     display: flex;
     align-items: center;
@@ -59,7 +59,6 @@
     margin: auto;
 }
 
-/* image part */
 .images {
     display: flex;
     align-items: center;
@@ -119,7 +118,7 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 20px;
-    margin-bottom: 90px;
+    margin-bottom: 80px;
 }
 
 .image-title {
@@ -143,16 +142,16 @@
 }
 
 
-/* third main part start */
+/* Sale section starts */
+
 .third-main-part {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: rgb(250, 216, 228);
-    margin-bottom: 170px;
+    margin-bottom: 80px;
     height: 620px;
     background-size: cover;
-
 }
 
 .medium-head-two {
@@ -171,7 +170,7 @@
 
 
 
-/* fourth main part starts */
+/* Instagram section starts */
 
 .fourth-main-part {
     text-align: center;
@@ -183,18 +182,46 @@
     margin-bottom: 20px;
 }
 
-/* fifth main part start */
+
+
+/* Instagram image section */
 
 .fifth-main-part {
     display: flex;
     align-items: center;
     margin-left: 300px;
     gap: 20px;
-    margin-bottom: 170px;
+    margin-bottom: 80px;
+}
+
+
+/* Facebook section Starts */
+.extra-task-one {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.task-img {
+    height: 500px;
+    width: 500px;
+}
+
+.extra-task-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.link-text {
+    font-size: 22px;
 }
 
 
 
+/* Deal section starts */
 
 .sixth-main-part {
 
@@ -211,12 +238,6 @@
     margin-bottom: 20px;
     padding-top: 90px;
 }
-
-/* .entry-part {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-} */
 
 #inp-mail {
     padding: 5px 10px;
@@ -254,29 +275,7 @@
 
 
 
-.extra-task-one {
-    text-align: center;
-    margin-bottom: 50px;
-}
 
-.task-img {
-    height: 500px;
-    width: 500px;
-}
-
-.extra-task-two {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 120px;
-    /* padding: 20px; */
-    margin-right: 20px;
-    margin-left: 30px;
-}
-
-.link-text {
-    font-size: 22px;
-}
 
 .task-txt {
     text-align: center;
@@ -284,4 +283,5 @@
 
 .again {
     text-align: justify;
+    margin-top: -10px;
 }
