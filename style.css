@@ -187,8 +187,6 @@
 
 }
 
-.sixth-text-part {}
-
 .medium-head-sixth {
     font-size: 40px;
     margin-bottom: 20px;
@@ -197,4 +195,31 @@
 .email-box {
     width: 1200px;
     height: 64px;
+}
+
+
+
+
+.bg-with-text {
+    width: 1922px;
+    height: 449px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.last-text {
+    padding: 125px;
+    margin-right: 100px;
+}
+
+.last-heading {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.clr-text {
+    color: deeppink;
 }
