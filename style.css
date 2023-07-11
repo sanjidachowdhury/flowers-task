@@ -45,27 +45,55 @@
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 20px;
-
 }
 
-.shape-one {
-    height: 500px;
-    width: 400px;
-    background-color: #fde8ed;
+/* image part */
+.image {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
 }
 
-.shape-two {
-    height: 500px;
-    width: 400px;
-    background-color: #d5f0f5;
+.png-6 {
+    width: 330px;
+    height: 450px;
+    padding-top: 90px;
+    margin-left: 60px;
 }
 
-.shape-three {
-    height: 500px;
-    width: 400px;
-    background-color: #dddddd;
+.one {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(192, 50, 119, 0.15);
 }
 
+.png-5 {
+    width: 380px;
+    height: 450px;
+    padding-top: 90px;
+    margin-left: 60px;
+}
+
+.two {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(151, 187, 206, 0.15);
+}
+
+.png-7 {
+    width: 380px;
+    height: 450px;
+    padding-top: 90px;
+    margin-left: 60px;
+}
+
+.three {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 165, 165, 0.15);
+}
+
+
+
+
+/* image title part */
 .image-title-container {
     display: flex;
     align-items: center;
@@ -74,17 +102,36 @@
 }
 
 .image-title {
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
 
+.title-one {
+    margin-left: 50px;
+}
+
+.title-two {
+    margin-left: 20px;
+}
+
+.title-three {
+    margin-right: 40px;
+}
+
+
+/* third main part start */
 .third-main-part {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: rgb(250, 216, 228);
     margin-bottom: 170px;
+    height: 620px;
+    background-size: cover;
+
 }
 
 .medium-head-two {
@@ -100,6 +147,11 @@
     text-align: center;
 }
 
+
+
+
+/* fourth main part starts */
+
 .fourth-main-part {
     text-align: center;
     margin-bottom: 50px;
@@ -109,6 +161,8 @@
     font-size: 40px;
     margin-bottom: 20px;
 }
+
+/* fifth main part start */
 
 .fifth-main-part {
     display: flex;
@@ -120,19 +174,27 @@
 
 
 
-
 .sixth-main-part {
-    padding: 250px;
-    width: 1440px;
-    height: 449px;
+
     background-image: url('./Images/Rectangle\ 9.png');
     background-repeat: no-repeat;
     background-position: center;
-
     text-align: center;
+    width: 1440px;
+    height: 449px;
+    padding-top: 150px;
+    margin-left: 180px;
+
 }
+
+.sixth-text-part {}
 
 .medium-head-sixth {
     font-size: 40px;
     margin-bottom: 20px;
+}
+
+.email-box {
+    width: 1200px;
+    height: 64px;
 }
